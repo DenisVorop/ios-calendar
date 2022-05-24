@@ -5,7 +5,7 @@ const middlewares = jsonServer.defaults({
     static: './build',
 })
 
-const PORT = process.env.PORT || 4444
+const PORT = process.env.PORT || 8000
 
 server.db = router.db
 
